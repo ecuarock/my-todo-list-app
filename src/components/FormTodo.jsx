@@ -8,7 +8,7 @@ const FormTodo = props => {
 		// (C-2)
 		handleAddItem({
 			done: false,
-			id: (+new Date()).toString(),
+			id: (+new Date()).toString(), 
 			description
 		});
 		setDescription(""); // (B)
